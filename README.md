@@ -1,7 +1,7 @@
 ## clone or download
 ```terminal
-$ git clone https://github.com/luiscarlsoto/dogBook
-$ cd dogBook //root
+$ git clone https://github.com/luiscarlsoto/Tienda-reactJs/
+$ cd Tienda-reactJs //root
 ```
 
 # Usage (run fullstack app on your machine)
