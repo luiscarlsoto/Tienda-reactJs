@@ -1,0 +1,27 @@
+.bill-footer{
+    flex: 3
+}
+.Total{
+    margin-left: 1rem;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.bill-items{
+    overflow: auto;
+    height: 10rem;
+}
+.bill-card {
+    overflow: hidden;
+    width: 37rem;
+    background: white;
+    border-radius: 12px;
+    height: 70vh;
+    box-shadow: 0 7px 16px -6px #3e3535;    
+    flex-direction: column;
+    justify-content: flex-start !important;
+    flex-wrap: nowrap;
+    align-items: stretch !important; 
+}

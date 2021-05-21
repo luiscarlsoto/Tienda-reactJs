@@ -1,0 +1,67 @@
+.post{
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 25rem;
+    margin: 1rem;
+    box-shadow: -4px 8px 21px -6px rgb(0 0 0 / 81%);
+    overflow: hidden;
+    border-radius: 1rem;
+
+}
+.post-img{
+    flex: 5;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.post-img img{
+    height: 100%;
+    width: auto;
+}
+.post-info{
+    background: white;
+    flex: 2;
+}
+.discount{
+    position: absolute;
+    right: 0%;
+    margin: 0.4rem;
+    background: #88fd18;
+    padding: 0.3rem;
+}
+.addCart-button{
+    font-size: 2rem;
+}
+.addCart-button:hover{
+    cursor: pointer;
+}
+.price{
+    margin-right: 0.5rem;
+    display: flex;
+    color: #88fd18;
+    font-weight: bold;
+    justify-content: flex-end;
+    font-size: 1.2rem;
+}
+.oldPrice{
+    color: #716a6a;;
+    font-size: 0.8rem;
+    text-decoration: line-through;
+}
+
+.title{
+    font-weight: bold;
+    text-align-last: center;
+    margin: 0.5rem;
+    color: black;
+    text-align: center;
+}
+.post-botton{
+    display: flex;
+    margin: 0 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}

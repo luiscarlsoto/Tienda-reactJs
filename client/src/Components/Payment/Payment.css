@@ -1,0 +1,31 @@
+.dashboard{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 100vw;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.payment input{
+    margin: 0 1rem;
+}
+.payment{
+    padding: 2rem;
+    width: 31rem;
+    box-shadow: -4px 8px 21px -6px rgb(0 0 0 / 81%);
+    border-radius: 1rem;
+}
+.payment button{
+    width: 100%;
+    margin-top: 2rem;
+    padding: 0.5rem;
+}
+.payment button:hover{
+    cursor: pointer;
+}
